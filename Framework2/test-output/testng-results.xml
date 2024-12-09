@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-06T12:17:45 IST" name="Suite" finished-at="2024-12-06T12:17:52 IST" duration-ms="7532">
+    <groups>
+    </groups>
+    <test started-at="2024-12-06T12:17:45 IST" name="Test_chrome" finished-at="2024-12-06T12:17:48 IST" duration-ms="3065">
+      <class name="Parallelexecution.ParallelExec1">
+        <test-method signature="pExec(java.lang.String)[pri:0, instance:Parallelexecution.ParallelExec1@25fb8912]" started-at="2024-12-06T12:17:45 IST" name="pExec" finished-at="2024-12-06T12:17:48 IST" duration-ms="3012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pExec -->
+      </class> <!-- Parallelexecution.ParallelExec1 -->
+    </test> <!-- Test_chrome -->
+    <test started-at="2024-12-06T12:17:45 IST" name="Test_firefox" finished-at="2024-12-06T12:17:52 IST" duration-ms="7532">
+      <class name="Parallelexecution.ParallelExec1">
+        <test-method signature="pExec(java.lang.String)[pri:0, instance:Parallelexecution.ParallelExec1@6bedbc4d]" started-at="2024-12-06T12:17:45 IST" name="pExec" finished-at="2024-12-06T12:17:52 IST" duration-ms="7490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pExec -->
+      </class> <!-- Parallelexecution.ParallelExec1 -->
+    </test> <!-- Test_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
